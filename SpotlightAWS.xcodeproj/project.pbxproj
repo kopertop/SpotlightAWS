@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79EB8FD11940AD2B0016BAB0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 79EB8FD01940AD2B0016BAB0 /* main.c */; };
+		79EB8FD31940AD2B0016BAB0 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB8FD21940AD2B0016BAB0 /* GetMetadataForFile.m */; };
+		79EB8FD61940AD2B0016BAB0 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB8FD51940AD2B0016BAB0 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79EB8FCB1940AD2B0016BAB0 /* SpotlightAWS.mdimporter */ = {isa = PBXFileReference; explicitFileType = "wrapper.spotlight-importer"; includeInIndex = 0; path = SpotlightAWS.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EB8FCF1940AD2B0016BAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EB8FD01940AD2B0016BAB0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		79EB8FD21940AD2B0016BAB0 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		79EB8FD41940AD2B0016BAB0 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		79EB8FD51940AD2B0016BAB0 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		79EB8FD71940AD2B0016BAB0 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EB8FC81940AD2B0016BAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EB8FC21940AD2B0016BAB0 = {
+			isa = PBXGroup;
+			children = (
+				79EB8FCD1940AD2B0016BAB0 /* SpotlightAWS */,
+				79EB8FCC1940AD2B0016BAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EB8FCC1940AD2B0016BAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EB8FCB1940AD2B0016BAB0 /* SpotlightAWS.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EB8FCD1940AD2B0016BAB0 /* SpotlightAWS */ = {
+			isa = PBXGroup;
+			children = (
+				79EB8FD21940AD2B0016BAB0 /* GetMetadataForFile.m */,
+				79EB8FD41940AD2B0016BAB0 /* MySpotlightImporter.h */,
+				79EB8FD51940AD2B0016BAB0 /* MySpotlightImporter.m */,
+				79EB8FD71940AD2B0016BAB0 /* Importer Read Me.txt */,
+				79EB8FCE1940AD2B0016BAB0 /* Supporting Files */,
+			);
+			path = SpotlightAWS;
+			sourceTree = "<group>";
+		};
+		79EB8FCE1940AD2B0016BAB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EB8FCF1940AD2B0016BAB0 /* Info.plist */,
+				79EB8FD01940AD2B0016BAB0 /* main.c */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EB8FCA1940AD2B0016BAB0 /* SpotlightAWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EB8FDA1940AD2B0016BAB0 /* Build configuration list for PBXNativeTarget "SpotlightAWS" */;
+			buildPhases = (
+				79EB8FC71940AD2B0016BAB0 /* Sources */,
+				79EB8FC81940AD2B0016BAB0 /* Frameworks */,
+				79EB8FC91940AD2B0016BAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotlightAWS;
+			productName = SpotlightAWS;
+			productReference = 79EB8FCB1940AD2B0016BAB0 /* SpotlightAWS.mdimporter */;
+			productType = "com.apple.product-type.spotlight-importer";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EB8FC31940AD2B0016BAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Chris Moyer";
+				TargetAttributes = {
+					79EB8FCA1940AD2B0016BAB0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 79EB8FC61940AD2B0016BAB0 /* Build configuration list for PBXProject "SpotlightAWS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79EB8FC21940AD2B0016BAB0;
+			productRefGroup = 79EB8FCC1940AD2B0016BAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EB8FCA1940AD2B0016BAB0 /* SpotlightAWS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EB8FC91940AD2B0016BAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EB8FC71940AD2B0016BAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EB8FD61940AD2B0016BAB0 /* MySpotlightImporter.m in Sources */,
+				79EB8FD11940AD2B0016BAB0 /* main.c in Sources */,
+				79EB8FD31940AD2B0016BAB0 /* GetMetadataForFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79EB8FD81940AD2B0016BAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79EB8FD91940AD2B0016BAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79EB8FDB1940AD2B0016BAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotlightAWS/Info.plist;
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		79EB8FDC1940AD2B0016BAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotlightAWS/Info.plist;
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EB8FC61940AD2B0016BAB0 /* Build configuration list for PBXProject "SpotlightAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB8FD81940AD2B0016BAB0 /* Debug */,
+				79EB8FD91940AD2B0016BAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EB8FDA1940AD2B0016BAB0 /* Build configuration list for PBXNativeTarget "SpotlightAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EB8FDB1940AD2B0016BAB0 /* Debug */,
+				79EB8FDC1940AD2B0016BAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79EB8FC31940AD2B0016BAB0 /* Project object */;
+}
